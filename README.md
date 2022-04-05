@@ -1,2 +1,2 @@
-# facul
+# Faculdade
 Aulas faculdade
