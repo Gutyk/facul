@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Calibri, sans-serif;
+}
+
+.container{
+    display: block;
+    text-align: center;
+    margin: 15px;
+}
+
+.banner{
+    margin-top: 25px;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+.images{
+    margin: 40px;
+}
+
+h2{
+    margin: 20px;
+}
+
+p{
+    margin: 0 0 40px;
+}
+
+a{
+    text-decoration: none;
+    background-color: #8db38d;
+    color: #FFFFFF;
+    padding: 8px 30px;
+    border-radius: 10px;
+}
