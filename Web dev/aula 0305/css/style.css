@@ -1,0 +1,297 @@
+/* reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* variáveis */
+:root {
+    --bg-dark: #000;
+    --light: #fff;
+    --hover: #dc143c;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Formatações genéricas */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--light);
+    font-size: 15px;
+    transition: .5s;
+}
+
+a:hover {
+    color: var(--hover);
+}
+
+
+
+
+/* formatação do header */
+
+.header-page {
+    width: 100%;
+    height: 80px;
+    /* background-color: #f60; */
+    display: flex;
+    
+    /* posição inicial dos filhos */
+    flex-direction: row;
+
+    /* alinhamento vertical */
+    align-items: center;
+
+    /* alinhamento horizontal */
+    justify-content: space-between;
+
+    padding: 0 10px;
+
+    /* posicionando o menu */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header-title {
+    color: var(--light);
+    font-size: 40px;
+}
+
+.logo {
+    color: var(--hover);
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+
+
+
+
+/* fim formatação do header */
+
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/****************************** hero ***********************************/
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-title {
+    color: var(--light);
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.hero-text {
+    color: var(--light);
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.btn {
+    border: 1px solid var(--hover);
+    background-color: var(--hover);
+    color: var(--light);
+    padding: 10px 20px;
+    border-radius: 70px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: var(--hover);
+}
+/****************************** fim hero *******************************/
+
+
+/****************************** tech *******************************/
+.tech {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.tech-item {
+    width: 30%;
+    height: 500px;
+    border: 1px solid var(--hover);
+    border-radius: 7px;
+    color: var(--light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.tech-icone {
+    font-size: 50px;
+    color: var(--hover);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.tech-icone:hover {
+    transform: rotate(1440deg);
+}
+
+.tech-title {
+    margin: 30px 0;
+}
+
+.tech-text {
+    margin: 30px 0;
+
+}
+/****************************** fim tech **************************/
+
+
+/****************************** solution **************************/
+.solution {
+    color: var(--light);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 60px;   
+}
+
+.solution-box {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.solution-box h2 {
+    margin: 20px 0;
+    font-size: 40px;
+}
+
+.span-solution {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.span-solution::after {
+    content: 'Agronegócio';
+    animation: solution infinite 5s;
+}
+
+
+@keyframes solution {
+
+    20% {
+        content: 'Indústria';
+    }
+    40% {
+        content: 'Educação';
+    }
+    60% {
+        content: 'Sáude';
+    }
+    80% {
+        content: 'Transporte';
+    }
+    
+}
+
+
+
+.solution-box p {
+    text-align: center;
+    margin: 50px 0;
+}
+
+/****************************** fim solution *********************/
+
+
+/****************************** gallery *********************/
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.gallery-item{
+    width: 22%;
+    background-color: var(--light);
+    padding: 10px 10px 20px 10px;
+    transition: 0.5s;   
+}
+
+.gallery-item:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.gallery-item img{
+    width: 100%;
+}
+
+.gallery-item figcaption{
+    font-size: 14px;
+    font-weight: 800;
+}
+
+
+/****************************** fim gallery *********************/
+
+
+
+/* imagens de fundo */
+.bg-image-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0)),
+    url(../images/pexels-daniel-putzer-633409.jpg);
+}
+
+.bg-image-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, .1)),
+    url(../images/pexels-negative-space-34140.jpg);
+}
+
+.bg-image-3 {
+    background-image: url(../images/pexels-picjumbocom-196659.jpg);
+}
+
+.bg-color-1 {
+    background-color: var(--bg-dark);
+}
+
+
+
+
+
