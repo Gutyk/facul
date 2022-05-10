@@ -16,7 +16,7 @@ public class ex1 {
 		c = teclado.nextInt();
 		
 		soma = a + b + c;
-		System.out.println("O valor total é: " + soma);
+		System.out.println("O valor total Ã©: " + soma);
 		
 		teclado.close();
 		
@@ -26,8 +26,6 @@ public class ex1 {
 		
 		else {
 			System.out.println("No XD :(");
-		}
-		
-//public }
-}
+		}	
+	}
 }
