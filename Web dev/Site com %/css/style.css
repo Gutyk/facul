@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(63, 0, 63);
+}
+
+.content{
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo{
+    margin: 2rem;
+}
+
+.logo i{
+    color: rgb(255, 11, 11);
+}
+
+.logo p{
+    font-size: 20px;
+}
+
+.login{
+    margin: 3rem;
+}
+
+.login a{
+    color: rgba(255, 255, 255, 0.61);
+    font-size: .9rem;
+    margin-left: 1.4rem
+}
+
+.login a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    margin: 5% 6%;
+}
+
+.box{
+    background-color: rgba(253, 32, 51, 0.822);
+    padding: 3rem;
+}
+
+.box h1{
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+}
+
+.info{
+    margin: 4rem 0 4rem 0;
+}
+
+.info p{
+    margin-bottom: 1.4rem;
+}
+
+.info a{
+    background-color: rgba(253, 32, 51, 0.822);
+    padding: .6rem;
+    color: rgba(255, 255, 255, 0.829);
+    border-radius: 5px;
+}
+
+.info a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.discos{
+    display: flex;
+    flex-direction: column;
+    min-width: 17rem;
+    max-width: 20rem;
+    border: 1px solid rgba(0, 0, 0, 0.199);
+}
+
+.discos h2, p, a{
+    margin-bottom: .7rem;
+}
+
+.gallery a{
+    padding: .6rem;
+    color: white;
+    background-color: rgba(67, 127, 255, 0.938);
+    width: max-content;
+    margin-left: .6rem;
+    border-radius: 10px;
+}
