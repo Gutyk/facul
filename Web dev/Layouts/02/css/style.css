@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --brown: rgb(99, 68, 74);
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #EEEEEE;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: var(--brown);
+    padding: 1rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.logo p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav a{
+    color: white;
+    margin-inline-start: 4rem;
+}
+
+.container{
+    margin: 3% 14%;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--brown);
+    align-items: flex;
+    width: 100%;
+}
+
+main img{
+    width: 30vmax;
+    height: max-content;
+}
+
+.text{
+    max-width: 50%;
+    margin: 1rem;
+}
+
+.text h2{
+    font-size: 2.4rem;
+}
+
+.text p{
+    font-size: 1.5rem;
+    margin-bottom: 4%;
+}
+
+.text a{
+    color: white;
+    background-color: var(--brown);
+    font-size: 1.7rem;
+    padding: 1rem;
+}
+
+.gallery, .gallery2{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box1, .box2{
+    padding: 2% 7%;
+    width: 28%;
+    border: 1px dotted rgb(99, 68, 74);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-inline-end: 1rem;
+}
+
+.box1 h2, .box2 h2{
+    color: var(--brown);
+}
+
+.box1 img, .box2 img{
+    margin-bottom: 1.4rem;
+    width: 23%;
+}
+
+

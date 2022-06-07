@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --orange: #E64916;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 2% 10%;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: #333333;
+    padding: 2.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 5rem;
+}
+
+.logo p{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.logo span{
+    color: var(--orange);
+}
+
+nav a{
+    color: white;
+    font-size: 1.7rem;
+    margin-inline-start: 1.5rem;
+}
+
+.after-header{
+    display: flex;
+}
+
+.back-content{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    width: 100%;
+    padding: 10% 3%;
+}
+
+.content{
+    color: white;
+    font-size: 3rem;
+    text-align: right;
+}
+
+.gallery{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    margin: 1.5rem;
+}
+
+.box h2{
+    color: var(--orange);
+    font-size: 2rem;
+}
+
+.box p{
+    font-size: 1.3rem;
+    margin-bottom: 1.6rem;
+}
+
+.box span{
+    color: var(--orange);
+    font-size: 1.5rem;
+}
+
+.box a{
+    background-color: var(--orange);
+    color: white;
+    padding: .7rem 1.3rem;
+    border-radius: 10px;
+}
